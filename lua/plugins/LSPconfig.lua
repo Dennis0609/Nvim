@@ -100,6 +100,18 @@ return {
           },
         },
         stylua = { enabled = false },
+        pyright = {
+          enabled = true,
+        },
+        ruff = {
+          enabled = true,
+          cmd_env = { RUFF_TRACE = "messages" },
+          init_options = {
+            settings = {
+              logLevel = "error",
+            },
+          },
+        },
         lua_ls = {
           -- mason = false, -- set to false if you don't want this server to be installed with mason
           -- Use this to add any additional keymaps
