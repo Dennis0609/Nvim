@@ -62,6 +62,11 @@ return {
       bind_to_cwd = false,
       follow_current_file = { enabled = true },
       use_libuv_file_watcher = true,
+      filtered_items = {
+        visible = true, -- 显示隐藏文件
+        hide_dotfiles = false, -- 不隐藏点文件
+        hide_gitignored = false, -- 不隐藏 .gitignore 文件
+      },
     },
     window = {
       mappings = {

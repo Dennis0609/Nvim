@@ -24,6 +24,7 @@ return {
         { "g", group = "goto" },
         { "gs", group = "surround" },
         { "z", group = "fold" },
+        { "<leader>a", group = "AI", icon = "󰧑" },
         {
           "<leader>b",
           group = "buffer",
